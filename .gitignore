@@ -1,0 +1,20 @@
+# Build artifacts
+sdk/build/
+sdk/gen/   # 由 tools/gen_script_assets.py 生成
+sdk/build/gen/  # 由 tools/gen_spider_proxy.py 生成
+*.jar
+*.dex
+*.class
+*.aar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

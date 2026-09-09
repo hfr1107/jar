@@ -1,0 +1,7 @@
+// 简单 root build.gradle - 只用于声明仓库
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
