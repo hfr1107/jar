@@ -1,5 +1,4 @@
 name: Build webhome.jar
-
 on:
   push:
     branches: [ "main", "master" ]
